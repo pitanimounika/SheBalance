@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+body {
+  background: #0A0A0F;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  color: #F0EEFF;
+}
+
+::-webkit-scrollbar { width: 4px; }
+::-webkit-scrollbar-track { background: #0A0A0F; }
+::-webkit-scrollbar-thumb { background: #7C3AED; border-radius: 4px; }
+
+input::placeholder { color: #4B5563; }
+input:focus { border-color: #7C3AED !important; }
